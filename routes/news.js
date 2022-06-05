@@ -38,7 +38,7 @@ router.post('/', function(req, res, next) {
 
     const id= req.params.id;
     console.log("-------------------------------------------->",id);
-    connection.query('DELETE FROM news_portal.news WHERE id_news = ?',[id],
+    connection.query('DELETE FROM bi5dgxk1ijropgtjfuhl.news WHERE id_news = ?',[id],
      (err, result) => {
        if (err){
          console.log("No se ha realizado correctamente!")
